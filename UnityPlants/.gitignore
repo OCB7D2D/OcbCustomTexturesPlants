@@ -1,0 +1,12 @@
+/.vsconfig
+/Assembly-CSharp.csproj
+/UnityPaintBrush.sln
+/.vs
+/Library
+/Logs
+/obj
+/Packages
+/ProjectSettings/*.asset
+/Temp
+/UserSettings
+/*.sln
