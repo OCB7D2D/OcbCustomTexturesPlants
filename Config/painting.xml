@@ -1,6 +1,5 @@
 <configs>
 	<append xpath="/paints">
-
 		<grass id="ocb_flower_01">
 			<property name="Diffuse" value="#@modfolder:Resources/Flowers.unity3d?assets/flowers/flower01.albedo.png"/>
 			<property name="Normal" value="#@modfolder:Resources/Flowers.unity3d?assets/flowers/flower01.normal.png"/>
@@ -91,5 +90,40 @@
 			<property name="Specular" value="#@modfolder:Resources/Plants.unity3d?assets/plants/cabbage.small.aost.png"/>
 		</grass>
 
-  </append>
+		<grass id="ocb_snow_bush_01">
+			<property name="Diffuse" value="#@modfolder:Resources/Others.unity3d?snow-bush-01.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/Others.unity3d?snow-bush-01.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/Others.unity3d?snow-bush-01.aost.png"/>
+		</grass>
+
+		<grass id="ocb_snow_bush_02">
+			<property name="Diffuse" value="#@modfolder:Resources/Others.unity3d?snow-bush-02.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/Others.unity3d?snow-bush-02.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/Others.unity3d?snow-bush-02.aost.png"/>
+		</grass>
+
+		<grass id="ocb_desert_grass_01">
+			<property name="Diffuse" value="#@modfolder:Resources/Others.unity3d?desert-grass-01.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/Others.unity3d?desert-grass-01.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/Others.unity3d?desert-grass-01.aost.png"/>
+		</grass>
+
+		<grass id="ocb_desert_grass_02">
+			<property name="Diffuse" value="#@modfolder:Resources/Others.unity3d?desert-grass-02.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/Others.unity3d?desert-grass-02.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/Others.unity3d?desert-grass-02.aost.png"/>
+		</grass>
+
+		<grass id="ocb_desert_bush_01">
+			<property name="Diffuse" value="#@modfolder:Resources/Others.unity3d?desert-bush-01.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/Others.unity3d?desert-bush-01.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/Others.unity3d?desert-bush-01.aost.png"/>
+		</grass>
+
+		<grass id="ocb_forrest_bush_01">
+			<property name="Diffuse" value="#@modfolder:Resources/Others.unity3d?forrest-bush-01.albedo.png"/>
+			<property name="Normal" value="#@modfolder:Resources/Others.unity3d?forrest-bush-01.normal.png"/>
+			<property name="Specular" value="#@modfolder:Resources/Others.unity3d?forrest-bush-01.aost.png"/>
+		</grass>
+	</append>
 </configs>
