@@ -1,0 +1,569 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &285716940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 285716942}
+  - component: {fileID: 285716941}
+  m_Layer: 0
+  m_Name: SnowBush02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &285716941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285716940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6d1f27f369dff4d9602c24fa403556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChangesPending: 0
+  TimeUsedMilliseconds: 1428.7281036376953
+  UncompressInput: {fileID: 2800000, guid: 18e6dcd09c78f0b43ba89a1d774438a1, type: 3}
+  MedianFilter: 5
+  RedFactor: 0.95
+  GreenFactor: 0.95
+  BlueFactor: 0.95
+  Brightness: 1.15
+  Lightness: 1.1
+  BlurRadial: 5
+  BlurIterations: 1
+  SpecularFactor: 0.5
+  SpecularPower: 1.25
+  MinLerpSpecular: 0.05
+  MaxLerpSpecular: 0.25
+  MinClampSpecular: 0.05
+  MaxClampSpecular: 0.95
+  TranslucencyFactor: 0.25
+  TranslucencyPower: 1.5
+  MinLerpTranslucency: 0.2
+  MaxLerpTranslucency: 0.25
+  MinClampTranslucency: 0.25
+  MaxClampTranslucency: 0.65
+  NormalStrength: 1.5
+  HopFactor: 1.25
+  OutputPath: Others
+  OutputName: snow-bush-02
+  InvertSpecRed: 0
+  InvertSpecGreen: 0
+  InvertSpecBlue: 0
+--- !u!4 &285716942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285716940}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &388439289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 388439291}
+  - component: {fileID: 388439290}
+  m_Layer: 0
+  m_Name: DesertGrass02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &388439290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388439289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6d1f27f369dff4d9602c24fa403556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChangesPending: 0
+  TimeUsedMilliseconds: 1509.0198516845703
+  UncompressInput: {fileID: 2800000, guid: 6e3bf01a36532dc43be39ddf9b550fb3, type: 3}
+  MedianFilter: 5
+  RedFactor: 0.55
+  GreenFactor: 0.43
+  BlueFactor: 0.55
+  Brightness: 0.9
+  Lightness: 1.1
+  BlurRadial: 4
+  BlurIterations: 1
+  SpecularFactor: 0.35
+  SpecularPower: 1.25
+  MinLerpSpecular: 0.02
+  MaxLerpSpecular: 0.75
+  MinClampSpecular: 0.125
+  MaxClampSpecular: 0.85
+  TranslucencyFactor: 0.35
+  TranslucencyPower: 1.25
+  MinLerpTranslucency: 0.02
+  MaxLerpTranslucency: 0.75
+  MinClampTranslucency: 0.25
+  MaxClampTranslucency: 0.95
+  NormalStrength: 2
+  HopFactor: 1.75
+  OutputPath: Others
+  OutputName: desert-grass-02
+  InvertSpecRed: 0
+  InvertSpecGreen: 0
+  InvertSpecBlue: 0
+--- !u!4 &388439291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388439289}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &487855355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 487855357}
+  - component: {fileID: 487855356}
+  m_Layer: 0
+  m_Name: DesertGrass01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &487855356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487855355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6d1f27f369dff4d9602c24fa403556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChangesPending: 0
+  TimeUsedMilliseconds: 1492.3381805419922
+  UncompressInput: {fileID: 2800000, guid: eeb3776d8cd598b4a907fd9b2697f04d, type: 3}
+  MedianFilter: 5
+  RedFactor: 0.95
+  GreenFactor: 0.9
+  BlueFactor: 0.8
+  Brightness: 1.5
+  Lightness: 0.6
+  BlurRadial: 3
+  BlurIterations: 1
+  SpecularFactor: 0.5
+  SpecularPower: 1.5
+  MinLerpSpecular: 0.02
+  MaxLerpSpecular: 0.65
+  MinClampSpecular: 0.05
+  MaxClampSpecular: 0.5
+  TranslucencyFactor: 0.5
+  TranslucencyPower: 1.25
+  MinLerpTranslucency: 0.02
+  MaxLerpTranslucency: 0.65
+  MinClampTranslucency: 0.05
+  MaxClampTranslucency: 0.65
+  NormalStrength: 1.75
+  HopFactor: 1.75
+  OutputPath: Others
+  OutputName: desert-grass-01
+  InvertSpecRed: 0
+  InvertSpecGreen: 0
+  InvertSpecBlue: 0
+--- !u!4 &487855357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487855355}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1063852151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1063852152}
+  - component: {fileID: 1063852153}
+  m_Layer: 0
+  m_Name: DesertBush01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1063852152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063852151}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1063852153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063852151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6d1f27f369dff4d9602c24fa403556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChangesPending: 0
+  TimeUsedMilliseconds: 1483.8409423828125
+  UncompressInput: {fileID: 2800000, guid: 853dfee2d2886b346a14bfce868bdd02, type: 3}
+  MedianFilter: 5
+  RedFactor: 0.8
+  GreenFactor: 0.85
+  BlueFactor: 0.95
+  Brightness: 1
+  Lightness: 1
+  BlurRadial: 3
+  BlurIterations: 1
+  SpecularFactor: 0.75
+  SpecularPower: 1.25
+  MinLerpSpecular: 0.02
+  MaxLerpSpecular: 0.5
+  MinClampSpecular: 0.05
+  MaxClampSpecular: 0.5
+  TranslucencyFactor: 0.5
+  TranslucencyPower: 1.25
+  MinLerpTranslucency: 0.05
+  MaxLerpTranslucency: 0.55
+  MinClampTranslucency: 0.15
+  MaxClampTranslucency: 0.75
+  NormalStrength: 1.75
+  HopFactor: 1.25
+  OutputPath: Others
+  OutputName: desert-bush-01
+  InvertSpecRed: 0
+  InvertSpecGreen: 0
+  InvertSpecBlue: 0
+--- !u!1 &1069990622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1069990623}
+  - component: {fileID: 1069990624}
+  m_Layer: 0
+  m_Name: ForrestBush01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1069990623
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069990622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1069990624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069990622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6d1f27f369dff4d9602c24fa403556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChangesPending: 0
+  TimeUsedMilliseconds: 1426.0592460632324
+  UncompressInput: {fileID: 2800000, guid: b2a6772cfea33ce4c9239e3bee1ae17b, type: 3}
+  MedianFilter: 5
+  RedFactor: 1
+  GreenFactor: 1
+  BlueFactor: 1
+  Brightness: 1
+  Lightness: 1
+  BlurRadial: 3
+  BlurIterations: 1
+  SpecularFactor: 0.75
+  SpecularPower: 1.25
+  MinLerpSpecular: 0.02
+  MaxLerpSpecular: 0.85
+  MinClampSpecular: 0.05
+  MaxClampSpecular: 0.45
+  TranslucencyFactor: 0.75
+  TranslucencyPower: 1.25
+  MinLerpTranslucency: 0.02
+  MaxLerpTranslucency: 0.65
+  MinClampTranslucency: 0.05
+  MaxClampTranslucency: 0.45
+  NormalStrength: 1.25
+  HopFactor: 1
+  OutputPath: Others
+  OutputName: forrest-bush-01
+  InvertSpecRed: 0
+  InvertSpecGreen: 0
+  InvertSpecBlue: 0
+--- !u!1 &1637413462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1637413464}
+  - component: {fileID: 1637413463}
+  m_Layer: 0
+  m_Name: SnowBush01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1637413463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637413462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6d1f27f369dff4d9602c24fa403556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChangesPending: 0
+  TimeUsedMilliseconds: 1454.233169555664
+  UncompressInput: {fileID: 2800000, guid: ca3b92b0233f366458d1a5e3d889f3cc, type: 3}
+  MedianFilter: 5
+  RedFactor: 0.85
+  GreenFactor: 0.85
+  BlueFactor: 0.85
+  Brightness: 1.25
+  Lightness: 1.125
+  BlurRadial: 5
+  BlurIterations: 1
+  SpecularFactor: 0.5
+  SpecularPower: 1.75
+  MinLerpSpecular: 0.02
+  MaxLerpSpecular: 0.85
+  MinClampSpecular: 0.05
+  MaxClampSpecular: 0.45
+  TranslucencyFactor: 0.75
+  TranslucencyPower: 1.25
+  MinLerpTranslucency: 0.02
+  MaxLerpTranslucency: 0.65
+  MinClampTranslucency: 0.05
+  MaxClampTranslucency: 0.45
+  NormalStrength: 1.75
+  HopFactor: 1.25
+  OutputPath: Others
+  OutputName: snow-bush-01
+  InvertSpecRed: 0
+  InvertSpecGreen: 0
+  InvertSpecBlue: 0
+--- !u!4 &1637413464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637413462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

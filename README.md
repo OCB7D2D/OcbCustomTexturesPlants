@@ -104,12 +104,16 @@ the grass swaying shader has issues if the input texture is not 512px.
 
 ## Changelog
 
+### Version 0.6.0
+
+- Update compatibility for 7D2D A21.1(b15)
+
 ### Version 0.1.0
 
 - Initial version
 
 ## Compatibility
 
-I've developed and tested this Mod against version a20.3(b3).
+Developed initially for version a20.3(b3), updated through A21.1(b15).
 
 [1]: https://github.com/OCB7D2D/OcbCustomTextures
