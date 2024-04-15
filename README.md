@@ -104,6 +104,10 @@ the grass swaying shader has issues if the input texture is not 512px.
 
 ## Changelog
 
+### Version 0.6.1
+
+- Maintenance re-pack release
+
 ### Version 0.6.0
 
 - Update compatibility for 7D2D A21.1(b15)
