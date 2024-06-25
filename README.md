@@ -1,4 +1,4 @@
-# OCB Demo Mod for Custom Texture Atlas  - 7 Days to Die (A20) Addon
+# OCB Demo Mod for Custom Texture Atlas  - 7 Days to Die (V1.0 exp) Addon
 
 This mod adds a few custom grass textures and blocks.
 Requires [OcbCustomTextures][1] Mod to actually do anything!
@@ -104,6 +104,10 @@ the grass swaying shader has issues if the input texture is not 512px.
 
 ## Changelog
 
+### Version 0.7.0
+
+- First compatibility with V1.0 (exp)
+
 ### Version 0.6.1
 
 - Maintenance re-pack release
@@ -115,9 +119,5 @@ the grass swaying shader has issues if the input texture is not 512px.
 ### Version 0.1.0
 
 - Initial version
-
-## Compatibility
-
-Developed initially for version a20.3(b3), updated through A21.1(b15).
 
 [1]: https://github.com/OCB7D2D/OcbCustomTextures
