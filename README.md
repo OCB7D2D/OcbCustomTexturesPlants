@@ -107,6 +107,7 @@ the grass swaying shader has issues if the input texture is not 512px.
 ### Version 0.7.0
 
 - First compatibility with V1.0 (exp)
+- Verified compatibility with V1 stable (b333)
 
 ### Version 0.6.1
 
